@@ -1,0 +1,9 @@
+cat << 'EOF' > .gitignore
+**/Debug/
+**/Release/
+
+**/.settings/
+**/*.launch
+**/*.cfg
+**/.mxproject
+EOF
